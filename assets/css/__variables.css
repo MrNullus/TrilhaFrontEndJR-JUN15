@@ -1,0 +1,9 @@
+:root {
+  --color-primary: #000000;
+  --color-secondary: #e53939;
+  --color-terciary: #ffffff;
+
+  --font-primary: "Handjet", sans-serif;
+  --font-secondary: "Mina", sans-serif;
+  --font-terciary: "JetBrains Mono";
+}

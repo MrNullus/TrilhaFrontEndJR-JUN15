@@ -1,0 +1,8 @@
+img {
+  object-fit: contain;
+  object-position: bottom;
+  width: 30%;
+  border-end-end-radius: 4rem;
+  border-top-right-radius: 90%;
+  border: groove var(--color-terciary) 2px;
+}

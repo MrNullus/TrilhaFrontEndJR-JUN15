@@ -1,0 +1,9 @@
+.app {
+  background-color: rgba(0, 0, 0, 0.9);
+
+  display: grid;
+  grid-auto-rows: max-content;
+  gap: 2rem;
+
+  color: var(--color-terciary);
+}
