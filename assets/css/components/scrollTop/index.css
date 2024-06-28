@@ -1,0 +1,21 @@
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #e53939;
+  color: #000;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+  opacity: 0.8;
+}
