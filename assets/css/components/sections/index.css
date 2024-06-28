@@ -1,0 +1,27 @@
+section {
+  width: 80%;
+  margin: 2rem 0;
+}
+
+section article header h2 {
+  text-align: center;
+  position: relative;
+}
+
+section article header h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-secondary);
+  transform: scaleX(1);
+  transition: transform 0.3s ease;
+}
+
+section article p {
+  padding: 1rem;
+  line-height: 0.8cm;
+  letter-spacing: 1px;
+}

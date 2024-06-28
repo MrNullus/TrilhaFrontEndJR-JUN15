@@ -1,0 +1,63 @@
+.app {
+  background-color: rgba(0, 0, 0, 0.9);
+
+  display: grid;
+  grid-auto-rows: max-content;
+  gap: 5rem;
+  place-items: center;
+
+  color: var(--color-terciary);
+  padding: 3rem 0rem;
+}
+
+/**
+ * Mudando o cursor
+ * */
+* {
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=162193), auto;
+}
+a,
+i {
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=162194), auto;
+}
+
+/* 
+ * Estilizar a seleção de texto */
+::selection {
+  background-color: var(--color-secondary);
+  color: #fff;
+  animation: pulse 1s infinite;
+}
+
+/* 
+ * Largura da barra de rolagem */
+::-webkit-scrollbar {
+  width: 12px;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 12px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+.list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.list li::before {
+  content: "✨";
+  margin-right: 10px;
+}
